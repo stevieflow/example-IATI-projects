@@ -1,0 +1,427 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--This is example XML for the IATI activity standard.  No reference to actual data, real organisations or development cooperation models is intended.-->
+<!--iati-activities starts-->
+<iati-activities generated-datetime="2014-11-27T07:15:37Z" version="2.01" linked-data-default="http://data.example.org/">
+ <!--iati-activity starts-->	
+ <iati-activity xml:lang="en" default-currency="CAN" last-updated-datetime="2014-11-27T07:15:37Z" hierarchy="1">
+  <!--iati-identifier starts-->
+  <iati-identifier>XM-DAC-301-3-B0202567001</iati-identifier>
+  <!--iati-identifier ends-->
+  <!--reporting-org starts-->
+  <reporting-org ref="XM-DAC-301-3" type="10" secondary-reporter="0">
+	  <narrative>Canadian Development Ministry</narrative>
+	  <narrative xml:lang="fr">Ministère des Affaires étrangères, du Commerce et du Développement </narrative>	  
+  </reporting-org>
+  <!--reporting-org ends-->
+  <!--title starts-->
+  <title>
+   <narrative>Local Economy Building</narrative>
+   <narrative xml:lang="fr">Bâtiment économie locale</narrative>
+  </title>
+  <!--title ends-->
+  <!--description starts-->
+  <description type="1">
+   <narrative>This project focuses on microfinance to improve the rate of economic activity in the Republic of Somewhere. The project aims to reorganize credit supply to benefit promoters of economic projects and to strengthen the capacities of assistance and support organizations in the 2 northern provinces of the country.</narrative>
+   <narrative xml:lang="fr">Activité générale du texte de description. Longue description de l'activité sans structure particulière.</narrative>
+  </description>
+  <!--description ends-->
+  <!--participating-org starts-->
+  <participating-org ref="XM-DAC-301-3" role="1" type="10">
+	  <narrative>Canadian Development Ministry</narrative>
+	  <narrative xml:lang="fr">Ministère des Affaires étrangères, du Commerce et du Développement </narrative>	  	
+  </participating-org>
+  <participating-org ref="CA-CRA_ARC-999999999" role="4" type="21">
+	<narrative>Micro-Finance Partners Canada</narrative>
+  </participating-org>  
+  <!--participating-org ends-->
+  <!--other-identifier starts-->
+  <other-identifier ref="B0202567001" type="A1">
+   <owner-org ref="XM-DAC-301-3">
+	  <narrative>Canadian Development Ministry</narrative>
+	  <narrative xml:lang="fr">Ministère des Affaires étrangères, du Commerce et du Développement </narrative>	
+   </owner-org>	  
+  </other-identifier>
+  <!--other-identifier ends-->
+  <!--activity-status starts-->
+  <activity-status code="2" />
+  <!--activity-status ends-->
+  <!--activity-date starts-->
+  <activity-date iso-date="2012-01-15" type="2" />
+  <activity-date iso-date="2016-02-15" type="3" />
+  <!--activity-date ends-->
+  <!--contact-info starts-->
+  <contact-info type="1">
+   <organisation>
+	<narrative>Agency A</narrative>
+   </organisation>
+   <department>
+    <narrative>Department B</narrative>
+   </department>
+   <person-name>
+	<narrative>A. Example</narrative>
+   </person-name>
+   <job-title>
+	<narrative>Transparency Lead</narrative>
+   </job-title>
+   <telephone>0044111222333444</telephone>
+   <email>transparency@example.org</email>
+   <website>http://www.example.org</website>
+   <mailing-address>
+	<narrative>Transparency House, The Street, Town, City, Postcode</narrative>
+   </mailing-address>
+  </contact-info>
+  <!--contact-info ends-->
+  <!--activity-scope starts-->
+  <activity-scope code="3" />
+  <!--activity-scope ends-->
+  <!--recipient-country starts-->
+  <recipient-country code="XX" />
+  <!--recipient-country ends-->
+  <!--sector starts-->
+  <sector vocabulary="2" code="111" />
+  <!--sector ends-->
+  <!--country-budget-items starts-->
+  <country-budget-items vocabulary="2">
+   <budget-item code="1.1.1" percentage="50">
+    <description>
+	 <narrative>Description text</narrative>
+	</description> 
+   </budget-item>
+   <budget-item code="1.2.1"  percentage="50">
+    <description>
+	 <narrative>Description text</narrative>
+	</description> 
+   </budget-item>
+  </country-budget-items>
+  <!--country-budget-items ends-->
+  <!--policy-marker starts-->
+  <policy-marker vocabulary="1" code="2" significance="3" />
+  <!--policy-marker ends-->
+  <!--collaboration-type starts-->
+  <collaboration-type code="1" />
+  <!--collaboration-type ends-->
+  <!--default-flow-type starts-->
+  <default-flow-type code="10" />
+  <!--default-flow-type ends-->
+  <!--default-finance-type starts-->
+  <default-finance-type code="110" />
+  <!--default-finance-type ends-->
+  <!--default-aid-type starts-->
+  <default-aid-type code="A01" />
+  <!--default-aid-type ends-->
+  <!--default-tied-status starts-->
+  <default-tied-status code="3" />
+  <!--default-tied-status ends-->
+  <!--budget starts-->
+  <budget type="1">
+   <period-start iso-date="2011-04-01" />
+   <period-end iso-date="2012-03-31" />
+   <value value-date="2011-11-01">200000</value>
+  </budget>
+  <budget type="1">
+   <period-start iso-date="2012-04-01" />
+   <period-end iso-date="2013-03-31" />
+   <value value-date="2011-11-01">500000</value>
+  </budget>
+  <budget type="1">
+   <period-start iso-date="2013-04-01" />
+   <period-end iso-date="2014-03-31" />
+   <value value-date="2011-11-01">500000</value>
+  </budget>
+  <budget type="1">
+   <period-start iso-date="2014-04-01" />
+   <period-end iso-date="2015-03-31" />
+   <value value-date="2011-11-01">500000</value>
+  </budget>
+  <budget type="1">
+   <period-start iso-date="2015-04-01" />
+   <period-end iso-date="2016-03-31" />
+   <value value-date="2011-11-01">300000</value>
+  </budget>
+  <budget type="2">
+   <period-start iso-date="2011-04-01" />
+   <period-end iso-date="2012-03-31" />
+   <value value-date="2011-11-01">200000</value>
+  </budget>
+  <budget type="2">
+   <period-start iso-date="2012-04-01" />
+   <period-end iso-date="2013-03-31" />
+   <value value-date="2011-11-01">500000</value>
+  </budget>
+  <budget type="2">
+   <period-start iso-date="2013-04-01" />
+   <period-end iso-date="2014-03-31" />
+   <value value-date="2011-11-01">800000</value>
+  </budget>
+  <budget type="2">
+   <period-start iso-date="2014-04-01" />
+   <period-end iso-date="2015-03-31" />
+   <value value-date="2011-11-01">900000</value>
+  </budget>
+  <budget type="2">
+   <period-start iso-date="2015-04-01" />
+   <period-end iso-date="2016-03-31" />
+   <value value-date="2011-11-01">400000</value>
+  </budget>              
+  <!--budget ends-->
+  <!--planned-disbursement starts-->
+  <planned-disbursement type="1">
+   <period-start iso-date="2014-01-01" />
+   <period-end iso-date="2014-12-31" />
+   <value currency="EUR" value-date="2014-01-01">3000</value>
+  </planned-disbursement>
+  <!--planned-disbursement ends-->
+  <!--planned-disbursement-single-date starts-->
+  <planned-disbursement type="1">
+   <period-start iso-date="2014-01-01" />
+   <period-end iso-date="2014-12-31" />
+   <value currency="EUR" value-date="2014-01-01">3000</value>
+  </planned-disbursement>
+  <!--planned-disbursement ends-->  
+  <!--capital-spend starts-->
+  <capital-spend percentage="88.8" />
+  <!--capital-spend ends-->
+  <!--transaction starts-->
+  <transaction ref="B0202567001-1">
+   <transaction-type code="2" />
+   <transaction-date iso-date="2012-01-15" />
+   <value value-date="2012-01-15">2000000</value>   
+   <description>
+	<narrative>Initial commitment</narrative>
+   </description>
+   <provider-org provider-activity-id="XM-DAC-301-3-B0202567001" ref="XM-DAC-301-3">
+	  <narrative>Canadian Development Ministry</narrative>
+	  <narrative xml:lang="fr">Ministère des Affaires étrangères, du Commerce et du Développement </narrative>	 
+   </provider-org>
+   <receiver-org receiver-activity-id="CA-CRA_ARC-999999999-1234" ref="CA-CRA_ARC-999999999">
+	<narrative>Micro-Finance Partners Canada</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="B0202567001-2">
+   <transaction-type code="3" />
+   <transaction-date iso-date="2012-02-15" />
+   <value value-date="2012-02-15">200000</value>   
+   <description>
+	<narrative>First disbursement</narrative>
+   </description>
+   <provider-org provider-activity-id="XM-DAC-301-3-B0202567001" ref="XM-DAC-301-3">
+	  <narrative>Canadian Development Ministry</narrative>
+	  <narrative xml:lang="fr">Ministère des Affaires étrangères, du Commerce et du Développement </narrative>	 
+   </provider-org>
+   <receiver-org receiver-activity-id="CA-CRA_ARC-999999999-1234" ref="CA-CRA_ARC-999999999">
+	<narrative>Micro-Finance Partners Canada</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="B0202567001-3">
+   <transaction-type code="3" />
+   <transaction-date iso-date="2012-06-03" />
+   <value value-date="2012-06-03">200000</value>   
+   <description>
+	<narrative>Second disbursement</narrative>
+   </description>
+   <provider-org provider-activity-id="XM-DAC-301-3-B0202567001" ref="XM-DAC-301-3">
+	  <narrative>Canadian Development Ministry</narrative>
+	  <narrative xml:lang="fr">Ministère des Affaires étrangères, du Commerce et du Développement </narrative>	 
+   </provider-org>
+   <receiver-org receiver-activity-id="CA-CRA_ARC-999999999-1234" ref="CA-CRA_ARC-999999999">
+	<narrative>Micro-Finance Partners Canada</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="B0202567001-4">
+   <transaction-type code="3" />
+   <transaction-date iso-date="2013-01-18" />
+   <value value-date="2013-01-18">300000</value>   
+   <description>
+	<narrative>Third disbursement</narrative>
+   </description>
+   <provider-org provider-activity-id="XM-DAC-301-3-B0202567001" ref="XM-DAC-301-3">
+	  <narrative>Canadian Development Ministry</narrative>
+	  <narrative xml:lang="fr">Ministère des Affaires étrangères, du Commerce et du Développement </narrative>	 
+   </provider-org>
+   <receiver-org receiver-activity-id="CA-CRA_ARC-999999999-1234" ref="CA-CRA_ARC-999999999">
+	<narrative>Micro-Finance Partners Canada</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="B0202567001-5">
+   <transaction-type code="3" />
+   <transaction-date iso-date="2013-04-22" />
+   <value value-date="2013-04-22">200000</value>   
+   <description>
+	<narrative>Fourth disbursement</narrative>
+   </description>
+   <provider-org provider-activity-id="XM-DAC-301-3-B0202567001" ref="XM-DAC-301-3">
+	  <narrative>Canadian Development Ministry</narrative>
+	  <narrative xml:lang="fr">Ministère des Affaires étrangères, du Commerce et du Développement </narrative>	 
+   </provider-org>
+   <receiver-org receiver-activity-id="CA-CRA_ARC-999999999-1234" ref="CA-CRA_ARC-999999999">
+	<narrative>Micro-Finance Partners Canada</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="B0202567001-6">
+   <transaction-type code="2" />
+   <transaction-date iso-date="2013-05-12" />
+   <value value-date="2013-05-12">8000000</value>   
+   <description>
+	<narrative>Additional commitment</narrative>
+   </description>
+   <provider-org provider-activity-id="XM-DAC-301-3-B0202567001" ref="XM-DAC-301-3">
+	  <narrative>Canadian Development Ministry</narrative>
+	  <narrative xml:lang="fr">Ministère des Affaires étrangères, du Commerce et du Développement </narrative>	 
+   </provider-org>
+   <receiver-org receiver-activity-id="CA-CRA_ARC-999999999-1234" ref="CA-CRA_ARC-999999999">
+	<narrative>Micro-Finance Partners Canada</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="B0202567001-7">
+   <transaction-type code="3" />
+   <transaction-date iso-date="2013-09-10" />
+   <value value-date="2013-09-10">275000</value>   
+   <description>
+	<narrative>Fifth disbursement</narrative>
+   </description>
+   <provider-org provider-activity-id="XM-DAC-301-3-B0202567001" ref="XM-DAC-301-3">
+	  <narrative>Canadian Development Ministry</narrative>
+	  <narrative xml:lang="fr">Ministère des Affaires étrangères, du Commerce et du Développement </narrative>	 
+   </provider-org>
+   <receiver-org receiver-activity-id="CA-CRA_ARC-999999999-1234" ref="CA-CRA_ARC-999999999">
+	<narrative>Micro-Finance Partners Canada</narrative>
+   </receiver-org>
+  </transaction>  
+  <transaction ref="B0202567001-8">
+   <transaction-type code="3" />
+   <transaction-date iso-date="2013-12-15" />
+   <value value-date="2013-12-15">150000</value>   
+   <description>
+	<narrative>Sixth disbursement</narrative>
+   </description>
+   <provider-org provider-activity-id="XM-DAC-301-3-B0202567001" ref="XM-DAC-301-3">
+	  <narrative>Canadian Development Ministry</narrative>
+	  <narrative xml:lang="fr">Ministère des Affaires étrangères, du Commerce et du Développement </narrative>	 
+   </provider-org>
+   <receiver-org receiver-activity-id="CA-CRA_ARC-999999999-1234" ref="CA-CRA_ARC-999999999">
+	<narrative>Micro-Finance Partners Canada</narrative>
+   </receiver-org>
+  </transaction>  
+  <transaction ref="B0202567001-9">
+   <transaction-type code="3" />
+   <transaction-date iso-date="2014-02-02" />
+   <value value-date="2014-02-02">175000</value>   
+   <description>
+	<narrative>Eighth disbursement</narrative>
+   </description>
+   <provider-org provider-activity-id="XM-DAC-301-3-B0202567001" ref="XM-DAC-301-3">
+	  <narrative>Canadian Development Ministry</narrative>
+	  <narrative xml:lang="fr">Ministère des Affaires étrangères, du Commerce et du Développement </narrative>	 
+   </provider-org>
+   <receiver-org receiver-activity-id="CA-CRA_ARC-999999999-1234" ref="CA-CRA_ARC-999999999">
+	<narrative>Micro-Finance Partners Canada</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="B0202567001-10">
+   <transaction-type code="3" />
+   <transaction-date iso-date="2014-06-02" />
+   <value value-date="2014-06-02">225000</value>   
+   <description>
+	<narrative>Ninth disbursement</narrative>
+   </description>
+   <provider-org provider-activity-id="XM-DAC-301-3-B0202567001" ref="XM-DAC-301-3">
+	  <narrative>Canadian Development Ministry</narrative>
+	  <narrative xml:lang="fr">Ministère des Affaires étrangères, du Commerce et du Développement </narrative>	 
+   </provider-org>
+   <receiver-org receiver-activity-id="CA-CRA_ARC-999999999-1234" ref="CA-CRA_ARC-999999999">
+	<narrative>Micro-Finance Partners Canada</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="B0202567001-11">
+   <transaction-type code="3" />
+   <transaction-date iso-date="2014-09-05" />
+   <value value-date="2014-09-05">250000</value>   
+   <description>
+	<narrative>Tenth disbursement</narrative>
+   </description>
+   <provider-org provider-activity-id="XM-DAC-301-3-B0202567001" ref="XM-DAC-301-3">
+	  <narrative>Canadian Development Ministry</narrative>
+	  <narrative xml:lang="fr">Ministère des Affaires étrangères, du Commerce et du Développement </narrative>	 
+   </provider-org>
+   <receiver-org receiver-activity-id="CA-CRA_ARC-999999999-1234" ref="CA-CRA_ARC-999999999">
+	<narrative>Micro-Finance Partners Canada</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="B0202567001-12">
+   <transaction-type code="3" />
+   <transaction-date iso-date="2014-11-18" />
+   <value value-date="2014-11-18">300000</value>   
+   <description>
+	<narrative>Eleventh disbursement</narrative>
+   </description>
+   <provider-org provider-activity-id="XM-DAC-301-3-B0202567001" ref="XM-DAC-301-3">
+	  <narrative>Canadian Development Ministry</narrative>
+	  <narrative xml:lang="fr">Ministère des Affaires étrangères, du Commerce et du Développement </narrative>	 
+   </provider-org>
+   <receiver-org receiver-activity-id="CA-CRA_ARC-999999999-1234" ref="CA-CRA_ARC-999999999">
+	<narrative>Micro-Finance Partners Canada</narrative>
+   </receiver-org>
+  </transaction>                           
+  <!--transaction ends-->
+  <!--document-link starts-->
+  <document-link format="application/vnd.oasis.opendocument.text" url="http:www.example.org/docs/report_en.odt">
+   <title>
+    <narrative>Project Report 2013</narrative>	   
+    <narrative xml:lang="fr">Rapport de projet 2013</narrative>
+   </title>
+   <category code="A01" />
+   <language code="en" />
+  </document-link>
+  <!--document-link ends-->
+  <!--related-activity starts-->
+  <related-activity ref="AA-AAA-123456789-6789" type="1" />
+  <!--related-activity ends-->
+  <!--conditions starts-->
+  <conditions attached="1">
+   <condition type="1">
+    <narrative>Conditions text</narrative>
+    <narrative xml:lang="fr">Conditions texte</narrative>
+   </condition>
+  </conditions>
+  <!--conditions ends-->
+  <!--result starts-->
+  <result type="1" aggregation-status="1">
+   <title>
+	<narrative>Result title</narrative>    
+   </title>
+   <description>
+    <narrative>Result description text</narrative>   
+   </description>
+   <indicator measure="1" ascending="1">
+     <title>
+      <narrative>Indicator title</narrative>   		 
+     </title>
+     <description>
+      <narrative>Indicator description text</narrative>
+     </description>     
+     <baseline year="2012" value="10">
+	  <comment>
+	   <narrative>Baseline comment text</narrative>
+	  </comment>
+     </baseline>
+     <period>
+      <period-start iso-date="2013-01-01" />
+      <period-end iso-date="2013-03-31" />
+      <target value="10">
+       <comment>
+        <narrative>Target comment text</narrative>			
+       </comment> 
+      </target>
+      <actual value="11">
+	   <comment>
+		<narrative>Actual comment text</narrative>
+	   </comment> 
+      </actual>
+     </period>
+   </indicator>
+  </result>
+  <!--result ends-->
+ </iati-activity>
+  <!--iati-activity ends-->	
+</iati-activities>
+<!--iati-activities ends-->
